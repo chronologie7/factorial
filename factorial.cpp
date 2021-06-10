@@ -17,8 +17,8 @@ int main()
     double numero;
 
     std::cout << "Inserte el número para conseguir su factorial" << std::endl;
-    cin >> numero;
-    cout << factorial(numero) << endl;
+    std::cin >> numero;
+    std::cout << factorial(numero) << std::endl;
 
     return 0;
 }
